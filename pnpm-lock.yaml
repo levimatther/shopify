@@ -66,7 +66,7 @@ importers:
       '@octokit/core': 4.2.0
       '@octokit/rest': 19.0.7
       '@shopify/eslint-plugin-cli': file:packages/eslint-plugin-cli_7iqwoxykhzwwjazrwn6fti7ari
-      '@shopify/typescript-configs': registry.npmjs.org/@shopify/typescript-configs/5.1.0
+      '@shopify/typescript-configs': 5.1.0
       '@types/node': 14.18.36
       '@types/rimraf': 3.0.2
       '@types/tmp': 0.2.3
@@ -128,13 +128,13 @@ importers:
       javy-cli: 0.1.4
       serve-static: 1.15.0
       vite: 4.3.6
-      vitest: ^0.31.0
+      vitest: ^0.31.3
       ws: 8.13.0
     dependencies:
       '@luckycatfactory/esbuild-graphql-loader': 3.8.1_o5ruvnjikzk2uztlwz52cd2j3m
       '@oclif/core': 2.1.4
       '@shopify/cli-kit': link:../cli-kit
-      '@shopify/function-runner': registry.npmjs.org/@shopify/function-runner/4.0.2
+      '@shopify/function-runner': 4.0.2
       '@shopify/plugin-cloudflare': link:../plugin-cloudflare
       '@shopify/plugin-ngrok': link:../plugin-ngrok
       abort-controller: 3.0.0
@@ -154,11 +154,11 @@ importers:
       '@types/node': 14.18.36
       '@types/serve-static': 1.15.1
       '@types/ws': 8.5.4
-      '@vitest/coverage-istanbul': 0.31.0_vitest@0.31.0
+      '@vitest/coverage-istanbul': 0.31.0_vitest@0.31.3
       graphql: 16.4.0
       graphql-tag: 2.12.6_graphql@16.4.0
       vite: 4.3.6_@types+node@14.18.36
-      vitest: 0.31.0
+      vitest: 0.31.3
 
   packages/cli:
     specifiers:
@@ -173,7 +173,7 @@ importers:
       '@types/node': 14.18.36
       '@vitest/coverage-istanbul': ^0.31.0
       vite: 4.3.6
-      vitest: ^0.31.0
+      vitest: ^0.31.3
       zod-to-json-schema: 3.20.4
     dependencies:
       '@oclif/core': 2.1.4
@@ -186,9 +186,9 @@ importers:
       '@shopify/app': link:../app
       '@shopify/theme': link:../theme
       '@types/node': 14.18.36
-      '@vitest/coverage-istanbul': 0.31.0_vitest@0.31.0
+      '@vitest/coverage-istanbul': 0.31.0_vitest@0.31.3
       vite: 4.3.6_@types+node@14.18.36
-      vitest: 0.31.0
+      vitest: 0.31.3
       zod-to-json-schema: 3.20.4
 
   packages/cli-kit:
@@ -264,7 +264,7 @@ importers:
       typescript: 4.9.5
       unique-string: 3.0.0
       vite: 4.3.6
-      vitest: ^0.31.0
+      vitest: ^0.31.3
       zod: 3.21.4
     dependencies:
       '@bugsnag/js': 7.20.2
@@ -334,13 +334,13 @@ importers:
       '@types/node': 14.18.36
       '@types/react': 17.0.2
       '@types/semver': 7.5.0
-      '@vitest/coverage-istanbul': 0.31.0_vitest@0.31.0
+      '@vitest/coverage-istanbul': 0.31.0_vitest@0.31.3
       node-stream-zip: 1.15.0
       ts-morph: 17.0.1
       typedoc: 0.23.28_typescript@4.9.5
       typescript: 4.9.5
       vite: 4.3.6_@types+node@14.18.36
-      vitest: 0.31.0
+      vitest: 0.31.3
 
   packages/create-app:
     specifiers:
@@ -348,14 +348,14 @@ importers:
       '@shopify/cli-kit': 3.46.0-pre.3
       '@types/node': 14.18.36
       vite: 4.3.6
-      vitest: ^0.31.0
+      vitest: ^0.31.3
     dependencies:
       '@oclif/core': 2.1.4
       '@shopify/cli-kit': link:../cli-kit
     devDependencies:
       '@types/node': 14.18.36
       vite: 4.3.6_@types+node@14.18.36
-      vitest: 0.31.0
+      vitest: 0.31.3
 
   packages/eslint-plugin-cli:
     specifiers:
@@ -380,7 +380,7 @@ importers:
       typescript: 4.9.5
     dependencies:
       '@babel/core': 7.21.4
-      '@shopify/eslint-plugin': registry.npmjs.org/@shopify/eslint-plugin/42.1.0_fzluok36gina5tivsgzhuum7mu
+      '@shopify/eslint-plugin': 42.1.0_fzluok36gina5tivsgzhuum7mu
       '@typescript-eslint/eslint-plugin': 5.57.0_fwbwffxiq4bvaw374ga4sdje4y
       '@typescript-eslint/parser': 5.59.2_jgkqkwom7vrxl4kyi454n2sy2i
       eslint-config-prettier: 8.8.0_eslint@8.40.0
@@ -437,7 +437,7 @@ importers:
       node-fetch: 3.3.1
       semver: 7.5.0
       vite: 4.3.6
-      vitest: ^0.31.0
+      vitest: ^0.31.3
     dependencies:
       '@oclif/core': 2.1.4
       '@shopify/cli-kit': link:../cli-kit
@@ -445,7 +445,7 @@ importers:
       semver: 7.5.0
     devDependencies:
       vite: 4.3.6
-      vitest: 0.31.0
+      vitest: 0.31.3
 
   packages/plugin-did-you-mean:
     specifiers:
@@ -453,14 +453,14 @@ importers:
       '@shopify/cli-kit': 3.46.0-pre.3
       n-gram: 2.0.2
       vite: 4.3.6
-      vitest: ^0.31.0
+      vitest: ^0.31.3
     dependencies:
       '@oclif/core': 2.1.4
       '@shopify/cli-kit': link:../cli-kit
       n-gram: 2.0.2
     devDependencies:
       vite: 4.3.6
-      vitest: 0.31.0
+      vitest: 0.31.3
 
   packages/plugin-ngrok:
     specifiers:
@@ -469,15 +469,15 @@ importers:
       '@shopify/ngrok': 4.3.2
       '@types/node': 14.18.36
       vite: 4.3.6
-      vitest: ^0.31.0
+      vitest: ^0.31.3
     dependencies:
       '@oclif/core': 2.1.4
       '@shopify/cli-kit': link:../cli-kit
-      '@shopify/ngrok': registry.npmjs.org/@shopify/ngrok/4.3.2
+      '@shopify/ngrok': 4.3.2
     devDependencies:
       '@types/node': 14.18.36
       vite: 4.3.6_@types+node@14.18.36
-      vitest: 0.31.0
+      vitest: 0.31.3
 
   packages/theme:
     specifiers:
@@ -486,7 +486,7 @@ importers:
       '@types/node': 14.18.36
       node-stream-zip: ^1.15.0
       vite: 4.3.6
-      vitest: ^0.31.0
+      vitest: ^0.31.3
     dependencies:
       '@oclif/core': 2.1.4
       '@shopify/cli-kit': link:../cli-kit
@@ -494,7 +494,7 @@ importers:
       '@types/node': 14.18.36
       node-stream-zip: 1.15.0
       vite: 4.3.6_@types+node@14.18.36
-      vitest: 0.31.0
+      vitest: 0.31.3
 
   packages/ui-extensions-dev-console:
     specifiers:
@@ -521,10 +521,10 @@ importers:
       typescript: 4.9.5
       vite: 4.3.6
       vite-tsconfig-paths: ^3.3.14
-      vitest: ^0.31.0
+      vitest: ^0.31.3
     dependencies:
-      '@shopify/polaris-icons': registry.npmjs.org/@shopify/polaris-icons/4.23.0
-      '@shopify/react-i18n': registry.npmjs.org/@shopify/react-i18n/6.4.0_sfoxds7t5ydpegc3knd667wn6m
+      '@shopify/polaris-icons': 4.23.0
+      '@shopify/react-i18n': 6.4.0_sfoxds7t5ydpegc3knd667wn6m
       '@shopify/ui-extensions-server-kit': link:../ui-extensions-server-kit
       '@vitejs/plugin-react': 1.3.2
       copy-to-clipboard: 3.3.3
@@ -535,7 +535,7 @@ importers:
       react-toastify: 9.1.2_sfoxds7t5ydpegc3knd667wn6m
       react-transition-group: 4.4.5_sfoxds7t5ydpegc3knd667wn6m
     devDependencies:
-      '@shopify/react-testing': registry.npmjs.org/@shopify/react-testing/3.3.10_sfoxds7t5ydpegc3knd667wn6m
+      '@shopify/react-testing': 3.3.10_sfoxds7t5ydpegc3knd667wn6m
       '@shopify/ui-extensions-test-utils': link:../ui-extensions-test-utils
       '@types/node': 14.18.36
       '@types/qrcode.react': 1.0.2
@@ -547,7 +547,7 @@ importers:
       typescript: 4.9.5
       vite: 4.3.6_5amwmg2yvzzoet4rgxrrauxowy
       vite-tsconfig-paths: 3.6.0_vite@4.3.6
-      vitest: 0.31.0_sass@1.62.1
+      vitest: 0.31.3_sass@1.62.1
 
   packages/ui-extensions-server-kit:
     specifiers:
@@ -567,9 +567,9 @@ importers:
       vi-fetch: ^0.8.0
       vite: 4.3.6
       vite-tsconfig-paths: ^3.3.14
-      vitest: ^0.31.0
+      vitest: ^0.31.3
     devDependencies:
-      '@shopify/react-testing': registry.npmjs.org/@shopify/react-testing/3.3.10_sfoxds7t5ydpegc3knd667wn6m
+      '@shopify/react-testing': 3.3.10_sfoxds7t5ydpegc3knd667wn6m
       '@shopify/ui-extensions-test-utils': link:../ui-extensions-test-utils
       '@types/node': 14.18.36
       '@types/react': 17.0.2
@@ -585,7 +585,7 @@ importers:
       vi-fetch: 0.8.0
       vite: 4.3.6_@types+node@14.18.36
       vite-tsconfig-paths: 3.6.0_vite@4.3.6
-      vitest: 0.31.0_jsdom@20.0.3
+      vitest: 0.31.3_jsdom@20.0.3
 
   packages/ui-extensions-test-utils:
     specifiers:
@@ -599,7 +599,7 @@ importers:
       ts-node: ^10.2.1
       typescript: 4.9.5
     devDependencies:
-      '@shopify/react-testing': registry.npmjs.org/@shopify/react-testing/3.3.10_sfoxds7t5ydpegc3knd667wn6m
+      '@shopify/react-testing': 3.3.10_sfoxds7t5ydpegc3knd667wn6m
       '@types/node': 14.18.36
       '@types/react': 17.0.2
       '@types/react-dom': 16.9.19
@@ -3518,6 +3518,172 @@ packages:
       estree-walker: 2.0.2
       picomatch: 2.3.1
 
+  /@shopify/dates/1.1.5:
+    resolution: {integrity: sha512-WpShtWjylq0iH4FQhpEz1g5tCZRw/GgZ00uYUxUinVyBqaUbRqiAq7EnwXzGO/aTpAUF6yXgDTxoji3aFOiC8A==, registry: https://npm.shopify.io/node/}
+    engines: {node: '>=12.14.0'}
+    dependencies:
+      '@shopify/decorators': 2.0.8
+    dev: false
+
+  /@shopify/decorators/2.0.8:
+    resolution: {integrity: sha512-nm/RmyDnEGP7rcn+hyPSUrb/j0G5mrtYP69f8AwJmVLgDp/6bOTYfOOUXB1AXBg9ILHWdFQv5ItYdmJB48y/Xw==, registry: https://npm.shopify.io/node/}
+    engines: {node: '>=12.14.0'}
+    dependencies:
+      '@shopify/function-enhancers': 2.0.8
+    dev: false
+
+  /@shopify/eslint-plugin/42.1.0_fzluok36gina5tivsgzhuum7mu:
+    resolution: {integrity: sha512-b45SXfXoE9+BvQjHrhInWlOMhsXrqIzts+setaXecR5WW6NcEKeeSfHvTvLVk231NHnrE5h+MuHp1Ci1pR5nfA==, registry: https://npm.shopify.io/node/}
+    peerDependencies:
+      eslint: ^8.3.0
+    dependencies:
+      '@babel/eslint-parser': 7.21.8_sna6kjlf4rfjwk3nie7l4rkory
+      '@babel/eslint-plugin': 7.19.1_jmcpgodjgavbdkcjyxicdajmsm
+      '@typescript-eslint/eslint-plugin': 5.57.0_fwbwffxiq4bvaw374ga4sdje4y
+      '@typescript-eslint/parser': 5.59.2_jgkqkwom7vrxl4kyi454n2sy2i
+      change-case: 4.1.2
+      common-tags: 1.8.2
+      doctrine: 2.1.0
+      eslint: 8.40.0
+      eslint-config-prettier: 8.8.0_eslint@8.40.0
+      eslint-module-utils: 2.8.0_fpivltgahi4upti426avloygci
+      eslint-plugin-eslint-comments: 3.2.0_eslint@8.40.0
+      eslint-plugin-import: 2.27.5_fpivltgahi4upti426avloygci
+      eslint-plugin-jest: 25.7.0_tyrtuhc4evx3mzdofx7z5mvcx4
+      eslint-plugin-jest-formatting: 3.1.0_eslint@8.40.0
+      eslint-plugin-jsx-a11y: 6.5.1_eslint@8.40.0
+      eslint-plugin-node: 11.1.0_eslint@8.40.0
+      eslint-plugin-prettier: 4.2.1_mnhdxnhvwtt24ndv5d2pwtkrna
+      eslint-plugin-promise: 6.1.1_eslint@8.40.0
+      eslint-plugin-react: 7.32.2_eslint@8.40.0
+      eslint-plugin-react-hooks: 4.6.0_eslint@8.40.0
+      eslint-plugin-sort-class-members: 1.17.1_eslint@8.40.0
+      jsx-ast-utils: 3.3.3
+      pkg-dir: 5.0.0
+      pluralize: 8.0.0
+    transitivePeerDependencies:
+      - '@babel/core'
+      - eslint-import-resolver-node
+      - eslint-import-resolver-typescript
+      - eslint-import-resolver-webpack
+      - jest
+      - prettier
+      - supports-color
+      - typescript
+
+  /@shopify/function-enhancers/2.0.8:
+    resolution: {integrity: sha512-/nv59+ycOVV2ZKixl6V1d+xJmfMN40qUEmpFgbXhCnNjAE/vz3nJPal70Esp4Li2NR3GzKVJklZk3Y3pG+W1vw==, registry: https://npm.shopify.io/node/}
+    engines: {node: '>=12.14.0'}
+    dev: false
+
+  /@shopify/function-runner/4.0.2:
+    resolution: {integrity: sha512-ymfDpzwgrkyNfXA1kXA2zBSyJlaOfbCmkxYJmmcLSWDE4YSKJv9D6FwyughPL4F6ZZlkU10GxSyxkquuOLlYiA==, registry: https://npm.shopify.io/node/}
+    hasBin: true
+    dependencies:
+      cachedir: 2.3.0
+      node-fetch: 3.3.1
+    dev: false
+
+  /@shopify/i18n/1.0.9:
+    resolution: {integrity: sha512-ZxoIB8UTmWHvRig6E4zvYJt3fAa24iJGYTQLHsjZBV3cmqi/AiSet9Qys7GkqzKcYV/4xukZIfpeWXVjef3v7A==, registry: https://npm.shopify.io/node/}
+    engines: {node: '>=12.14.0'}
+    dev: false
+
+  /@shopify/ngrok/4.3.2:
+    resolution: {integrity: sha512-Kz+tg6PavJGTKVOVd1AExm1MH1zVyE3lHWwnRBWIR/+uMxPmob9kp4bRlo4/270qWfGLNiY96TJgByVEm4Q9/g==, registry: https://npm.shopify.io/node/}
+    engines: {node: '>=10.19.0 <14 || >=14.2'}
+    hasBin: true
+    requiresBuild: true
+    dependencies:
+      '@types/node': 8.10.66
+      extract-zip: 2.0.1
+      got: 11.8.6
+      lodash.clonedeep: 4.5.0
+      uuid: 8.3.2
+      yaml: 1.10.2
+    optionalDependencies:
+      hpagent: 0.1.2
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
+
+  /@shopify/polaris-icons/4.23.0:
+    resolution: {integrity: sha512-70iT2GNXVASA7jPtuKTsPKoq82Ws/x9Nu1sGuTnvchQpeltFG9oJEu/1r9AuTS05dQoM6fivnOCxZGy5XnCFqw==, registry: https://npm.shopify.io/node/}
+    dev: false
+
+  /@shopify/react-effect/4.1.12_sfoxds7t5ydpegc3knd667wn6m:
+    resolution: {integrity: sha512-Zy0CH0onvv/Jll4ePxvWa1STS6cILjoFI+6LxMFapC8ZVcCQdnrQFLmuoyF+rfyuFqJtwHE9y1sDZcP+EkW3GQ==, registry: https://npm.shopify.io/node/}
+    engines: {node: '>=12.14.0'}
+    peerDependencies:
+      react: '>=16.8.0 <18.0.0'
+      react-dom: '>=16.8.0 <18.0.0'
+    dependencies:
+      react: 17.0.2
+      react-dom: 17.0.2_react@17.0.2
+    dev: false
+
+  /@shopify/react-hooks/2.1.19_react@17.0.2:
+    resolution: {integrity: sha512-IZ1RbYB9fHfERveg8ZdAbJcZ7uN1yDH/4Jse8v8+GI3YlGnKn31XSB6vmk5v5Ti2kNvOK84LFdcmRDWRQa3k3A==, registry: https://npm.shopify.io/node/}
+    engines: {node: '>=12.14.0'}
+    peerDependencies:
+      react: '>=16.8.0 <18.0.0'
+    dependencies:
+      react: 17.0.2
+    dev: false
+
+  /@shopify/react-i18n/6.4.0_sfoxds7t5ydpegc3knd667wn6m:
+    resolution: {integrity: sha512-slWBcgfYD2QstNRQTZxXI8iJdPyhek32N8TeGLU315K2zvIGPzOZaFRN+2dzVlY8WWFd/auQ7xY5x+a3gOx5tg==, registry: https://npm.shopify.io/node/}
+    engines: {node: '>=12.14.0'}
+    peerDependencies:
+      react: '>=16.8.0 <18.0.0'
+    dependencies:
+      '@shopify/dates': 1.1.5
+      '@shopify/decorators': 2.0.8
+      '@shopify/function-enhancers': 2.0.8
+      '@shopify/i18n': 1.0.9
+      '@shopify/react-effect': 4.1.12_sfoxds7t5ydpegc3knd667wn6m
+      '@shopify/react-hooks': 2.1.19_react@17.0.2
+      '@shopify/useful-types': 4.0.3
+      '@types/hoist-non-react-statics': 3.3.1
+      change-case: 4.1.2
+      glob: 7.2.3
+      hoist-non-react-statics: 3.3.2
+      lodash.clonedeep: 4.5.0
+      lodash.merge: 4.6.2
+      react: 17.0.2
+      string-hash: 1.1.3
+      strip-json-comments: 3.1.1
+    optionalDependencies:
+      '@babel/template': 7.20.7
+      '@babel/traverse': 7.21.5
+      fs-extra: 9.1.0
+    transitivePeerDependencies:
+      - react-dom
+      - supports-color
+    dev: false
+
+  /@shopify/react-testing/3.3.10_sfoxds7t5ydpegc3knd667wn6m:
+    resolution: {integrity: sha512-l1juWNqe4rRrP5bcOB6riJEd1Bb0BgfnGVKb9GB+o8QtTv1ti3YxGdyU+D/qpIuXBG5h5SNR2wgECdD4kpqVeg==, registry: https://npm.shopify.io/node/}
+    engines: {node: '>=12.14.0'}
+    peerDependencies:
+      react: '>=16.8.0 <18.0.0'
+      react-dom: '>=16.8.0 <18.0.0'
+    dependencies:
+      '@shopify/useful-types': 4.0.3
+      jest-matcher-utils: 26.6.2
+      react: 17.0.2
+      react-dom: 17.0.2_react@17.0.2
+      react-reconciler: 0.26.2_react@17.0.2
+    dev: true
+
+  /@shopify/typescript-configs/5.1.0:
+    resolution: {integrity: sha512-RywGBTR+nQyJLxcrUcihPkHPIG3pIQI6i0YwMrM5rs9nWJ0+9A5HKEcboyGPLH+8V08EXGfFQ6H820O9ajyk4A==, registry: https://npm.shopify.io/node/}
+    dev: true
+
+  /@shopify/useful-types/4.0.3:
+    resolution: {integrity: sha512-vT48uKFSTfI3HPqtNI3lahWRDncFuuzBVfj2eUxEpQO//3Sn+IIo4zRPT9W4EHBiVWJyBeW5CTzVtvGhQma4EA==, registry: https://npm.shopify.io/node/}
+    engines: {node: '>=12.14.0'}
+
   /@sinclair/typebox/0.24.51:
     resolution: {integrity: sha512-1P1OROm/rdubP5aFDSZQILU0vrLCJ4fvHt6EoqHEM+2D/G5MK3bIaymUKLit8Js9gbns5UyJnkP/TZROLw4tUA==}
     dev: true
@@ -4111,7 +4277,7 @@ packages:
       - supports-color
     dev: false
 
-  /@vitest/coverage-istanbul/0.31.0_vitest@0.31.0:
+  /@vitest/coverage-istanbul/0.31.0_vitest@0.31.3:
     resolution: {integrity: sha512-SaTI1PSpCRtBhJ5ihBx7Z+jgrFAQlDjuI4MFmKQ/HjyYWzEoaU+I062SquRrOLjJtVOHnwJdjVJXKi0dgFiR9Q==}
     peerDependencies:
       vitest: '>=0.30.0 <1'
@@ -4122,44 +4288,44 @@ packages:
       istanbul-lib-source-maps: 4.0.1
       istanbul-reports: 3.1.5
       test-exclude: 6.0.0
-      vitest: 0.31.0
+      vitest: 0.31.3
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /@vitest/expect/0.31.0:
-    resolution: {integrity: sha512-Jlm8ZTyp6vMY9iz9Ny9a0BHnCG4fqBa8neCF6Pk/c/6vkUk49Ls6UBlgGAU82QnzzoaUs9E/mUhq/eq9uMOv/g==}
+  /@vitest/expect/0.31.3:
+    resolution: {integrity: sha512-J+npV64YwKRJN7hA8KVnuyGi5k5mIaq4XmqIxKbRUX0BRBkU1xZ7gZeTwQ4S4dBTcvSvcoxceBNfMTnOdTlg3g==}
     dependencies:
-      '@vitest/spy': 0.31.0
-      '@vitest/utils': 0.31.0
+      '@vitest/spy': 0.31.3
+      '@vitest/utils': 0.31.3
       chai: 4.3.7
     dev: true
 
-  /@vitest/runner/0.31.0:
-    resolution: {integrity: sha512-H1OE+Ly7JFeBwnpHTrKyCNm/oZgr+16N4qIlzzqSG/YRQDATBYmJb/KUn3GrZaiQQyL7GwpNHVZxSQd6juLCgw==}
+  /@vitest/runner/0.31.3:
+    resolution: {integrity: sha512-89Fic1IRu4yNqnks/KJEncqZsmQpxq9RSnMVwV0RZeI9RWv/FYh9Nuoz8ld73YKOh6NiF4f9EE3COfNwX8aRpw==}
     dependencies:
-      '@vitest/utils': 0.31.0
+      '@vitest/utils': 0.31.3
       concordance: 5.0.4
       p-limit: 4.0.0
       pathe: 1.1.0
     dev: true
 
-  /@vitest/snapshot/0.31.0:
-    resolution: {integrity: sha512-5dTXhbHnyUMTMOujZPB0wjFjQ6q5x9c8TvAsSPUNKjp1tVU7i9pbqcKPqntyu2oXtmVxKbuHCqrOd+Ft60r4tg==}
+  /@vitest/snapshot/0.31.3:
+    resolution: {integrity: sha512-CgcmlZyP083oPUgd83rwLZ+qoT4KdvLNsyWRiJNgHoJjR0r7StVY+LlLAfdC9qA70G8O+hJeug+Yn1u4H51OzA==}
     dependencies:
       magic-string: 0.30.0
       pathe: 1.1.0
       pretty-format: 27.5.1
     dev: true
 
-  /@vitest/spy/0.31.0:
-    resolution: {integrity: sha512-IzCEQ85RN26GqjQNkYahgVLLkULOxOm5H/t364LG0JYb3Apg0PsYCHLBYGA006+SVRMWhQvHlBBCyuByAMFmkg==}
+  /@vitest/spy/0.31.3:
+    resolution: {integrity: sha512-tXGIYPdqjBXLhOWSUhWV/eBWBllfD8f6ppQXR0YMBt95bZrCNV7pM29pkam2M/3GAlg7hS+I8wnKZVkIxgXz9A==}
     dependencies:
       tinyspy: 2.1.0
     dev: true
 
-  /@vitest/utils/0.31.0:
-    resolution: {integrity: sha512-kahaRyLX7GS1urekRXN2752X4gIgOGVX4Wo8eDUGUkTWlGpXzf5ZS6N9RUUS+Re3XEE8nVGqNyxkSxF5HXlGhQ==}
+  /@vitest/utils/0.31.3:
+    resolution: {integrity: sha512-aLxfilR38ARSw6U/E9hl5bkn2TNeWLK7rZaIWZQUpT6BBilbehwJbSVGENubW5Pb9cawqchZZ7IQMW99t0Ww3A==}
     dependencies:
       concordance: 5.0.4
       loupe: 2.3.6
@@ -11752,8 +11918,8 @@ packages:
       replace-ext: 1.0.1
     dev: true
 
-  /vite-node/0.31.0_5amwmg2yvzzoet4rgxrrauxowy:
-    resolution: {integrity: sha512-8x1x1LNuPvE2vIvkSB7c1mApX5oqlgsxzHQesYF7l5n1gKrEmrClIiZuOFbFDQcjLsmcWSwwmrWrcGWm9Fxc/g==}
+  /vite-node/0.31.3_5amwmg2yvzzoet4rgxrrauxowy:
+    resolution: {integrity: sha512-KGdemamy6imPlmTycADRs5yMX/CoxPq9vJwTAOgSfabzneJmyexmRBBVEX8Mesb3mleIXTBIVR6z0fmtoRTcww==}
     engines: {node: '>=v14.18.0'}
     hasBin: true
     dependencies:
@@ -11773,8 +11939,8 @@ packages:
       - terser
     dev: true
 
-  /vite-node/0.31.0_@types+node@14.18.36:
-    resolution: {integrity: sha512-8x1x1LNuPvE2vIvkSB7c1mApX5oqlgsxzHQesYF7l5n1gKrEmrClIiZuOFbFDQcjLsmcWSwwmrWrcGWm9Fxc/g==}
+  /vite-node/0.31.3_@types+node@14.18.36:
+    resolution: {integrity: sha512-KGdemamy6imPlmTycADRs5yMX/CoxPq9vJwTAOgSfabzneJmyexmRBBVEX8Mesb3mleIXTBIVR6z0fmtoRTcww==}
     engines: {node: '>=v14.18.0'}
     hasBin: true
     dependencies:
@@ -11907,8 +12073,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.31.0:
-    resolution: {integrity: sha512-JwWJS9p3GU9GxkG7eBSmr4Q4x4bvVBSswaCFf1PBNHiPx00obfhHRJfgHcnI0ffn+NMlIh9QGvG75FlaIBdKGA==}
+  /vitest/0.31.3:
+    resolution: {integrity: sha512-LMXIKXfI7tDClf6HIR5GjCSHZQdlmfCWWPaJwWcLF+M11V766Tzefb8LD9mLcHmX/zR0xtlfcokpg3JxEDLfeA==}
     engines: {node: '>=v14.18.0'}
     hasBin: true
     peerDependencies:
@@ -11941,11 +12107,11 @@ packages:
       '@types/chai': 4.3.5
       '@types/chai-subset': 1.3.3
       '@types/node': 14.18.36
-      '@vitest/expect': 0.31.0
-      '@vitest/runner': 0.31.0
-      '@vitest/snapshot': 0.31.0
-      '@vitest/spy': 0.31.0
-      '@vitest/utils': 0.31.0
+      '@vitest/expect': 0.31.3
+      '@vitest/runner': 0.31.3
+      '@vitest/snapshot': 0.31.3
+      '@vitest/spy': 0.31.3
+      '@vitest/utils': 0.31.3
       acorn: 8.8.2
       acorn-walk: 8.2.0
       cac: 6.7.14
@@ -11961,7 +12127,7 @@ packages:
       tinybench: 2.5.0
       tinypool: 0.5.0
       vite: 4.3.6_@types+node@14.18.36
-      vite-node: 0.31.0_@types+node@14.18.36
+      vite-node: 0.31.3_@types+node@14.18.36
       why-is-node-running: 2.2.2
     transitivePeerDependencies:
       - less
@@ -11972,8 +12138,8 @@ packages:
       - terser
     dev: true
 
-  /vitest/0.31.0_jsdom@20.0.3:
-    resolution: {integrity: sha512-JwWJS9p3GU9GxkG7eBSmr4Q4x4bvVBSswaCFf1PBNHiPx00obfhHRJfgHcnI0ffn+NMlIh9QGvG75FlaIBdKGA==}
+  /vitest/0.31.3_jsdom@20.0.3:
+    resolution: {integrity: sha512-LMXIKXfI7tDClf6HIR5GjCSHZQdlmfCWWPaJwWcLF+M11V766Tzefb8LD9mLcHmX/zR0xtlfcokpg3JxEDLfeA==}
     engines: {node: '>=v14.18.0'}
     hasBin: true
     peerDependencies:
@@ -12006,11 +12172,11 @@ packages:
       '@types/chai': 4.3.5
       '@types/chai-subset': 1.3.3
       '@types/node': 14.18.36
-      '@vitest/expect': 0.31.0
-      '@vitest/runner': 0.31.0
-      '@vitest/snapshot': 0.31.0
-      '@vitest/spy': 0.31.0
-      '@vitest/utils': 0.31.0
+      '@vitest/expect': 0.31.3
+      '@vitest/runner': 0.31.3
+      '@vitest/snapshot': 0.31.3
+      '@vitest/spy': 0.31.3
+      '@vitest/utils': 0.31.3
       acorn: 8.8.2
       acorn-walk: 8.2.0
       cac: 6.7.14
@@ -12027,7 +12193,7 @@ packages:
       tinybench: 2.5.0
       tinypool: 0.5.0
       vite: 4.3.6_@types+node@14.18.36
-      vite-node: 0.31.0_@types+node@14.18.36
+      vite-node: 0.31.3_@types+node@14.18.36
       why-is-node-running: 2.2.2
     transitivePeerDependencies:
       - less
@@ -12038,8 +12204,8 @@ packages:
       - terser
     dev: true
 
-  /vitest/0.31.0_sass@1.62.1:
-    resolution: {integrity: sha512-JwWJS9p3GU9GxkG7eBSmr4Q4x4bvVBSswaCFf1PBNHiPx00obfhHRJfgHcnI0ffn+NMlIh9QGvG75FlaIBdKGA==}
+  /vitest/0.31.3_sass@1.62.1:
+    resolution: {integrity: sha512-LMXIKXfI7tDClf6HIR5GjCSHZQdlmfCWWPaJwWcLF+M11V766Tzefb8LD9mLcHmX/zR0xtlfcokpg3JxEDLfeA==}
     engines: {node: '>=v14.18.0'}
     hasBin: true
     peerDependencies:
@@ -12072,11 +12238,11 @@ packages:
       '@types/chai': 4.3.5
       '@types/chai-subset': 1.3.3
       '@types/node': 14.18.36
-      '@vitest/expect': 0.31.0
-      '@vitest/runner': 0.31.0
-      '@vitest/snapshot': 0.31.0
-      '@vitest/spy': 0.31.0
-      '@vitest/utils': 0.31.0
+      '@vitest/expect': 0.31.3
+      '@vitest/runner': 0.31.3
+      '@vitest/snapshot': 0.31.3
+      '@vitest/spy': 0.31.3
+      '@vitest/utils': 0.31.3
       acorn: 8.8.2
       acorn-walk: 8.2.0
       cac: 6.7.14
@@ -12092,7 +12258,7 @@ packages:
       tinybench: 2.5.0
       tinypool: 0.5.0
       vite: 4.3.6_5amwmg2yvzzoet4rgxrrauxowy
-      vite-node: 0.31.0_5amwmg2yvzzoet4rgxrrauxowy
+      vite-node: 0.31.3_5amwmg2yvzzoet4rgxrrauxowy
       why-is-node-running: 2.2.2
     transitivePeerDependencies:
       - less
@@ -12599,7 +12765,7 @@ packages:
       eslint: ^8.37.0
     dependencies:
       '@babel/core': 7.21.4
-      '@shopify/eslint-plugin': registry.npmjs.org/@shopify/eslint-plugin/42.1.0_fzluok36gina5tivsgzhuum7mu
+      '@shopify/eslint-plugin': 42.1.0_fzluok36gina5tivsgzhuum7mu
       '@typescript-eslint/eslint-plugin': 5.57.0_fwbwffxiq4bvaw374ga4sdje4y
       '@typescript-eslint/parser': 5.59.2_jgkqkwom7vrxl4kyi454n2sy2i
       eslint: 8.40.0
@@ -12624,202 +12790,3 @@ packages:
       - supports-color
       - typescript
     dev: true
-
-  registry.npmjs.org/@shopify/dates/1.1.5:
-    resolution: {integrity: sha512-WpShtWjylq0iH4FQhpEz1g5tCZRw/GgZ00uYUxUinVyBqaUbRqiAq7EnwXzGO/aTpAUF6yXgDTxoji3aFOiC8A==, registry: https://npm.shopify.io/node/, tarball: https://registry.npmjs.org/@shopify/dates/-/dates-1.1.5.tgz}
-    name: '@shopify/dates'
-    version: 1.1.5
-    engines: {node: '>=12.14.0'}
-    dependencies:
-      '@shopify/decorators': registry.npmjs.org/@shopify/decorators/2.0.8
-    dev: false
-
-  registry.npmjs.org/@shopify/decorators/2.0.8:
-    resolution: {integrity: sha512-nm/RmyDnEGP7rcn+hyPSUrb/j0G5mrtYP69f8AwJmVLgDp/6bOTYfOOUXB1AXBg9ILHWdFQv5ItYdmJB48y/Xw==, registry: https://npm.shopify.io/node/, tarball: https://registry.npmjs.org/@shopify/decorators/-/decorators-2.0.8.tgz}
-    name: '@shopify/decorators'
-    version: 2.0.8
-    engines: {node: '>=12.14.0'}
-    dependencies:
-      '@shopify/function-enhancers': registry.npmjs.org/@shopify/function-enhancers/2.0.8
-    dev: false
-
-  registry.npmjs.org/@shopify/eslint-plugin/42.1.0_fzluok36gina5tivsgzhuum7mu:
-    resolution: {integrity: sha512-b45SXfXoE9+BvQjHrhInWlOMhsXrqIzts+setaXecR5WW6NcEKeeSfHvTvLVk231NHnrE5h+MuHp1Ci1pR5nfA==, registry: https://npm.shopify.io/node/, tarball: https://registry.npmjs.org/@shopify/eslint-plugin/-/eslint-plugin-42.1.0.tgz}
-    id: registry.npmjs.org/@shopify/eslint-plugin/42.1.0
-    name: '@shopify/eslint-plugin'
-    version: 42.1.0
-    peerDependencies:
-      eslint: ^8.3.0
-    dependencies:
-      '@babel/eslint-parser': 7.21.8_sna6kjlf4rfjwk3nie7l4rkory
-      '@babel/eslint-plugin': 7.19.1_jmcpgodjgavbdkcjyxicdajmsm
-      '@typescript-eslint/eslint-plugin': 5.57.0_fwbwffxiq4bvaw374ga4sdje4y
-      '@typescript-eslint/parser': 5.59.2_jgkqkwom7vrxl4kyi454n2sy2i
-      change-case: 4.1.2
-      common-tags: 1.8.2
-      doctrine: 2.1.0
-      eslint: 8.40.0
-      eslint-config-prettier: 8.8.0_eslint@8.40.0
-      eslint-module-utils: 2.8.0_fpivltgahi4upti426avloygci
-      eslint-plugin-eslint-comments: 3.2.0_eslint@8.40.0
-      eslint-plugin-import: 2.27.5_fpivltgahi4upti426avloygci
-      eslint-plugin-jest: 25.7.0_tyrtuhc4evx3mzdofx7z5mvcx4
-      eslint-plugin-jest-formatting: 3.1.0_eslint@8.40.0
-      eslint-plugin-jsx-a11y: 6.5.1_eslint@8.40.0
-      eslint-plugin-node: 11.1.0_eslint@8.40.0
-      eslint-plugin-prettier: 4.2.1_mnhdxnhvwtt24ndv5d2pwtkrna
-      eslint-plugin-promise: 6.1.1_eslint@8.40.0
-      eslint-plugin-react: 7.32.2_eslint@8.40.0
-      eslint-plugin-react-hooks: 4.6.0_eslint@8.40.0
-      eslint-plugin-sort-class-members: 1.17.1_eslint@8.40.0
-      jsx-ast-utils: 3.3.3
-      pkg-dir: 5.0.0
-      pluralize: 8.0.0
-    transitivePeerDependencies:
-      - '@babel/core'
-      - eslint-import-resolver-node
-      - eslint-import-resolver-typescript
-      - eslint-import-resolver-webpack
-      - jest
-      - prettier
-      - supports-color
-      - typescript
-
-  registry.npmjs.org/@shopify/function-enhancers/2.0.8:
-    resolution: {integrity: sha512-/nv59+ycOVV2ZKixl6V1d+xJmfMN40qUEmpFgbXhCnNjAE/vz3nJPal70Esp4Li2NR3GzKVJklZk3Y3pG+W1vw==, registry: https://npm.shopify.io/node/, tarball: https://registry.npmjs.org/@shopify/function-enhancers/-/function-enhancers-2.0.8.tgz}
-    name: '@shopify/function-enhancers'
-    version: 2.0.8
-    engines: {node: '>=12.14.0'}
-    dev: false
-
-  registry.npmjs.org/@shopify/function-runner/4.0.2:
-    resolution: {integrity: sha512-ymfDpzwgrkyNfXA1kXA2zBSyJlaOfbCmkxYJmmcLSWDE4YSKJv9D6FwyughPL4F6ZZlkU10GxSyxkquuOLlYiA==, registry: https://npm.shopify.io/node/, tarball: https://registry.npmjs.org/@shopify/function-runner/-/function-runner-4.0.2.tgz}
-    name: '@shopify/function-runner'
-    version: 4.0.2
-    hasBin: true
-    dependencies:
-      cachedir: 2.3.0
-      node-fetch: 3.3.1
-    dev: false
-
-  registry.npmjs.org/@shopify/i18n/1.0.9:
-    resolution: {integrity: sha512-ZxoIB8UTmWHvRig6E4zvYJt3fAa24iJGYTQLHsjZBV3cmqi/AiSet9Qys7GkqzKcYV/4xukZIfpeWXVjef3v7A==, registry: https://npm.shopify.io/node/, tarball: https://registry.npmjs.org/@shopify/i18n/-/i18n-1.0.9.tgz}
-    name: '@shopify/i18n'
-    version: 1.0.9
-    engines: {node: '>=12.14.0'}
-    dev: false
-
-  registry.npmjs.org/@shopify/ngrok/4.3.2:
-    resolution: {integrity: sha512-Kz+tg6PavJGTKVOVd1AExm1MH1zVyE3lHWwnRBWIR/+uMxPmob9kp4bRlo4/270qWfGLNiY96TJgByVEm4Q9/g==, registry: https://npm.shopify.io/node/, tarball: https://registry.npmjs.org/@shopify/ngrok/-/ngrok-4.3.2.tgz}
-    name: '@shopify/ngrok'
-    version: 4.3.2
-    engines: {node: '>=10.19.0 <14 || >=14.2'}
-    hasBin: true
-    requiresBuild: true
-    dependencies:
-      '@types/node': 8.10.66
-      extract-zip: 2.0.1
-      got: 11.8.6
-      lodash.clonedeep: 4.5.0
-      uuid: 8.3.2
-      yaml: 1.10.2
-    optionalDependencies:
-      hpagent: 0.1.2
-    transitivePeerDependencies:
-      - supports-color
-    dev: false
-
-  registry.npmjs.org/@shopify/polaris-icons/4.23.0:
-    resolution: {integrity: sha512-70iT2GNXVASA7jPtuKTsPKoq82Ws/x9Nu1sGuTnvchQpeltFG9oJEu/1r9AuTS05dQoM6fivnOCxZGy5XnCFqw==, registry: https://npm.shopify.io/node/, tarball: https://registry.npmjs.org/@shopify/polaris-icons/-/polaris-icons-4.23.0.tgz}
-    name: '@shopify/polaris-icons'
-    version: 4.23.0
-    dev: false
-
-  registry.npmjs.org/@shopify/react-effect/4.1.12_sfoxds7t5ydpegc3knd667wn6m:
-    resolution: {integrity: sha512-Zy0CH0onvv/Jll4ePxvWa1STS6cILjoFI+6LxMFapC8ZVcCQdnrQFLmuoyF+rfyuFqJtwHE9y1sDZcP+EkW3GQ==, registry: https://npm.shopify.io/node/, tarball: https://registry.npmjs.org/@shopify/react-effect/-/react-effect-4.1.12.tgz}
-    id: registry.npmjs.org/@shopify/react-effect/4.1.12
-    name: '@shopify/react-effect'
-    version: 4.1.12
-    engines: {node: '>=12.14.0'}
-    peerDependencies:
-      react: '>=16.8.0 <18.0.0'
-      react-dom: '>=16.8.0 <18.0.0'
-    dependencies:
-      react: 17.0.2
-      react-dom: 17.0.2_react@17.0.2
-    dev: false
-
-  registry.npmjs.org/@shopify/react-hooks/2.1.19_react@17.0.2:
-    resolution: {integrity: sha512-IZ1RbYB9fHfERveg8ZdAbJcZ7uN1yDH/4Jse8v8+GI3YlGnKn31XSB6vmk5v5Ti2kNvOK84LFdcmRDWRQa3k3A==, registry: https://npm.shopify.io/node/, tarball: https://registry.npmjs.org/@shopify/react-hooks/-/react-hooks-2.1.19.tgz}
-    id: registry.npmjs.org/@shopify/react-hooks/2.1.19
-    name: '@shopify/react-hooks'
-    version: 2.1.19
-    engines: {node: '>=12.14.0'}
-    peerDependencies:
-      react: '>=16.8.0 <18.0.0'
-    dependencies:
-      react: 17.0.2
-    dev: false
-
-  registry.npmjs.org/@shopify/react-i18n/6.4.0_sfoxds7t5ydpegc3knd667wn6m:
-    resolution: {integrity: sha512-slWBcgfYD2QstNRQTZxXI8iJdPyhek32N8TeGLU315K2zvIGPzOZaFRN+2dzVlY8WWFd/auQ7xY5x+a3gOx5tg==, registry: https://npm.shopify.io/node/, tarball: https://registry.npmjs.org/@shopify/react-i18n/-/react-i18n-6.4.0.tgz}
-    id: registry.npmjs.org/@shopify/react-i18n/6.4.0
-    name: '@shopify/react-i18n'
-    version: 6.4.0
-    engines: {node: '>=12.14.0'}
-    peerDependencies:
-      react: '>=16.8.0 <18.0.0'
-    dependencies:
-      '@shopify/dates': registry.npmjs.org/@shopify/dates/1.1.5
-      '@shopify/decorators': registry.npmjs.org/@shopify/decorators/2.0.8
-      '@shopify/function-enhancers': registry.npmjs.org/@shopify/function-enhancers/2.0.8
-      '@shopify/i18n': registry.npmjs.org/@shopify/i18n/1.0.9
-      '@shopify/react-effect': registry.npmjs.org/@shopify/react-effect/4.1.12_sfoxds7t5ydpegc3knd667wn6m
-      '@shopify/react-hooks': registry.npmjs.org/@shopify/react-hooks/2.1.19_react@17.0.2
-      '@shopify/useful-types': registry.npmjs.org/@shopify/useful-types/4.0.3
-      '@types/hoist-non-react-statics': 3.3.1
-      change-case: 4.1.2
-      glob: 7.2.3
-      hoist-non-react-statics: 3.3.2
-      lodash.clonedeep: 4.5.0
-      lodash.merge: 4.6.2
-      react: 17.0.2
-      string-hash: 1.1.3
-      strip-json-comments: 3.1.1
-    optionalDependencies:
-      '@babel/template': 7.20.7
-      '@babel/traverse': 7.21.5
-      fs-extra: 9.1.0
-    transitivePeerDependencies:
-      - react-dom
-      - supports-color
-    dev: false
-
-  registry.npmjs.org/@shopify/react-testing/3.3.10_sfoxds7t5ydpegc3knd667wn6m:
-    resolution: {integrity: sha512-l1juWNqe4rRrP5bcOB6riJEd1Bb0BgfnGVKb9GB+o8QtTv1ti3YxGdyU+D/qpIuXBG5h5SNR2wgECdD4kpqVeg==, registry: https://npm.shopify.io/node/, tarball: https://registry.npmjs.org/@shopify/react-testing/-/react-testing-3.3.10.tgz}
-    id: registry.npmjs.org/@shopify/react-testing/3.3.10
-    name: '@shopify/react-testing'
-    version: 3.3.10
-    engines: {node: '>=12.14.0'}
-    peerDependencies:
-      react: '>=16.8.0 <18.0.0'
-      react-dom: '>=16.8.0 <18.0.0'
-    dependencies:
-      '@shopify/useful-types': registry.npmjs.org/@shopify/useful-types/4.0.3
-      jest-matcher-utils: 26.6.2
-      react: 17.0.2
-      react-dom: 17.0.2_react@17.0.2
-      react-reconciler: 0.26.2_react@17.0.2
-    dev: true
-
-  registry.npmjs.org/@shopify/typescript-configs/5.1.0:
-    resolution: {integrity: sha512-RywGBTR+nQyJLxcrUcihPkHPIG3pIQI6i0YwMrM5rs9nWJ0+9A5HKEcboyGPLH+8V08EXGfFQ6H820O9ajyk4A==, registry: https://npm.shopify.io/node/, tarball: https://registry.npmjs.org/@shopify/typescript-configs/-/typescript-configs-5.1.0.tgz}
-    name: '@shopify/typescript-configs'
-    version: 5.1.0
-    dev: true
-
-  registry.npmjs.org/@shopify/useful-types/4.0.3:
-    resolution: {integrity: sha512-vT48uKFSTfI3HPqtNI3lahWRDncFuuzBVfj2eUxEpQO//3Sn+IIo4zRPT9W4EHBiVWJyBeW5CTzVtvGhQma4EA==, registry: https://npm.shopify.io/node/, tarball: https://registry.npmjs.org/@shopify/useful-types/-/useful-types-4.0.3.tgz}
-    name: '@shopify/useful-types'
-    version: 4.0.3
-    engines: {node: '>=12.14.0'}
