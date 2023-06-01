@@ -66,7 +66,7 @@ importers:
       '@octokit/core': 4.2.0
       '@octokit/rest': 19.0.7
       '@shopify/eslint-plugin-cli': file:packages/eslint-plugin-cli_7iqwoxykhzwwjazrwn6fti7ari
-      '@shopify/typescript-configs': registry.npmjs.org/@shopify/typescript-configs/5.1.0
+      '@shopify/typescript-configs': 5.1.0
       '@types/node': 14.18.36
       '@types/rimraf': 3.0.2
       '@types/tmp': 0.2.3
@@ -134,7 +134,7 @@ importers:
       '@luckycatfactory/esbuild-graphql-loader': 3.8.1_o5ruvnjikzk2uztlwz52cd2j3m
       '@oclif/core': 2.1.4
       '@shopify/cli-kit': link:../cli-kit
-      '@shopify/function-runner': registry.npmjs.org/@shopify/function-runner/4.0.2
+      '@shopify/function-runner': 4.0.2
       '@shopify/plugin-cloudflare': link:../plugin-cloudflare
       '@shopify/plugin-ngrok': link:../plugin-ngrok
       abort-controller: 3.0.0
@@ -367,7 +367,7 @@ importers:
       eslint-config-prettier: 8.8.0
       eslint-plugin-import: 2.27.5
       eslint-plugin-jsdoc: 39.3.6
-      eslint-plugin-jsx-a11y: 6.5.1
+      eslint-plugin-jsx-a11y: 6.7.1
       eslint-plugin-no-catch-all: 1.1.0
       eslint-plugin-prettier: 4.2.1
       eslint-plugin-react: 7.32.2
@@ -380,13 +380,13 @@ importers:
       typescript: 4.9.5
     dependencies:
       '@babel/core': 7.21.4
-      '@shopify/eslint-plugin': registry.npmjs.org/@shopify/eslint-plugin/42.1.0_fzluok36gina5tivsgzhuum7mu
+      '@shopify/eslint-plugin': 42.1.0_fzluok36gina5tivsgzhuum7mu
       '@typescript-eslint/eslint-plugin': 5.57.0_fwbwffxiq4bvaw374ga4sdje4y
       '@typescript-eslint/parser': 5.59.2_jgkqkwom7vrxl4kyi454n2sy2i
       eslint-config-prettier: 8.8.0_eslint@8.40.0
       eslint-plugin-import: 2.27.5_fpivltgahi4upti426avloygci
       eslint-plugin-jsdoc: 39.3.6_eslint@8.40.0
-      eslint-plugin-jsx-a11y: 6.5.1_eslint@8.40.0
+      eslint-plugin-jsx-a11y: 6.7.1_eslint@8.40.0
       eslint-plugin-no-catch-all: 1.1.0_eslint@8.40.0
       eslint-plugin-prettier: 4.2.1_mnhdxnhvwtt24ndv5d2pwtkrna
       eslint-plugin-react: 7.32.2_eslint@8.40.0
@@ -473,7 +473,7 @@ importers:
     dependencies:
       '@oclif/core': 2.1.4
       '@shopify/cli-kit': link:../cli-kit
-      '@shopify/ngrok': registry.npmjs.org/@shopify/ngrok/4.3.2
+      '@shopify/ngrok': 4.3.2
     devDependencies:
       '@types/node': 14.18.36
       vite: 4.3.6_@types+node@14.18.36
@@ -523,8 +523,8 @@ importers:
       vite-tsconfig-paths: ^3.3.14
       vitest: ^0.31.0
     dependencies:
-      '@shopify/polaris-icons': registry.npmjs.org/@shopify/polaris-icons/4.23.0
-      '@shopify/react-i18n': registry.npmjs.org/@shopify/react-i18n/6.4.0_sfoxds7t5ydpegc3knd667wn6m
+      '@shopify/polaris-icons': 4.23.0
+      '@shopify/react-i18n': 6.4.0_sfoxds7t5ydpegc3knd667wn6m
       '@shopify/ui-extensions-server-kit': link:../ui-extensions-server-kit
       '@vitejs/plugin-react': 1.3.2
       copy-to-clipboard: 3.3.3
@@ -535,7 +535,7 @@ importers:
       react-toastify: 9.1.2_sfoxds7t5ydpegc3knd667wn6m
       react-transition-group: 4.4.5_sfoxds7t5ydpegc3knd667wn6m
     devDependencies:
-      '@shopify/react-testing': registry.npmjs.org/@shopify/react-testing/3.3.10_sfoxds7t5ydpegc3knd667wn6m
+      '@shopify/react-testing': 3.3.10_sfoxds7t5ydpegc3knd667wn6m
       '@shopify/ui-extensions-test-utils': link:../ui-extensions-test-utils
       '@types/node': 14.18.36
       '@types/qrcode.react': 1.0.2
@@ -569,7 +569,7 @@ importers:
       vite-tsconfig-paths: ^3.3.14
       vitest: ^0.31.0
     devDependencies:
-      '@shopify/react-testing': registry.npmjs.org/@shopify/react-testing/3.3.10_sfoxds7t5ydpegc3knd667wn6m
+      '@shopify/react-testing': 3.3.10_sfoxds7t5ydpegc3knd667wn6m
       '@shopify/ui-extensions-test-utils': link:../ui-extensions-test-utils
       '@types/node': 14.18.36
       '@types/react': 17.0.2
@@ -599,7 +599,7 @@ importers:
       ts-node: ^10.2.1
       typescript: 4.9.5
     devDependencies:
-      '@shopify/react-testing': registry.npmjs.org/@shopify/react-testing/3.3.10_sfoxds7t5ydpegc3knd667wn6m
+      '@shopify/react-testing': 3.3.10_sfoxds7t5ydpegc3knd667wn6m
       '@types/node': 14.18.36
       '@types/react': 17.0.2
       '@types/react-dom': 16.9.19
@@ -1929,13 +1929,6 @@ packages:
   /@babel/regjsgen/0.8.0:
     resolution: {integrity: sha512-x/rqGMdzj+fWZvCOYForTghzbtqPDZ5gPwaoNGHdgDfF2QA/XZbCBp4Moo5scrkAMPhB7z26XM/AaHuIJdgauA==}
     dev: true
-
-  /@babel/runtime-corejs3/7.21.5:
-    resolution: {integrity: sha512-FRqFlFKNazWYykft5zvzuEl1YyTDGsIRrjV9rvxvYkUC7W/ueBng1X68Xd6uRMzAaJ0xMKn08/wem5YS1lpX8w==}
-    engines: {node: '>=6.9.0'}
-    dependencies:
-      core-js-pure: 3.30.2
-      regenerator-runtime: 0.13.11
 
   /@babel/runtime/7.21.5:
     resolution: {integrity: sha512-8jI69toZqqcsnqGGqwGS4Qb1VwLOEp4hz+CXPywcvjs60u3B4Pom/U/7rm4W8tMOYEB+E9wgD0mW1l3r8qlI9Q==}
@@ -3518,6 +3511,172 @@ packages:
       estree-walker: 2.0.2
       picomatch: 2.3.1
 
+  /@shopify/dates/1.1.5:
+    resolution: {integrity: sha512-WpShtWjylq0iH4FQhpEz1g5tCZRw/GgZ00uYUxUinVyBqaUbRqiAq7EnwXzGO/aTpAUF6yXgDTxoji3aFOiC8A==, registry: https://npm.shopify.io/node/}
+    engines: {node: '>=12.14.0'}
+    dependencies:
+      '@shopify/decorators': 2.0.8
+    dev: false
+
+  /@shopify/decorators/2.0.8:
+    resolution: {integrity: sha512-nm/RmyDnEGP7rcn+hyPSUrb/j0G5mrtYP69f8AwJmVLgDp/6bOTYfOOUXB1AXBg9ILHWdFQv5ItYdmJB48y/Xw==, registry: https://npm.shopify.io/node/}
+    engines: {node: '>=12.14.0'}
+    dependencies:
+      '@shopify/function-enhancers': 2.0.8
+    dev: false
+
+  /@shopify/eslint-plugin/42.1.0_fzluok36gina5tivsgzhuum7mu:
+    resolution: {integrity: sha512-b45SXfXoE9+BvQjHrhInWlOMhsXrqIzts+setaXecR5WW6NcEKeeSfHvTvLVk231NHnrE5h+MuHp1Ci1pR5nfA==, registry: https://npm.shopify.io/node/}
+    peerDependencies:
+      eslint: ^8.3.0
+    dependencies:
+      '@babel/eslint-parser': 7.21.8_sna6kjlf4rfjwk3nie7l4rkory
+      '@babel/eslint-plugin': 7.19.1_jmcpgodjgavbdkcjyxicdajmsm
+      '@typescript-eslint/eslint-plugin': 5.57.0_fwbwffxiq4bvaw374ga4sdje4y
+      '@typescript-eslint/parser': 5.59.2_jgkqkwom7vrxl4kyi454n2sy2i
+      change-case: 4.1.2
+      common-tags: 1.8.2
+      doctrine: 2.1.0
+      eslint: 8.40.0
+      eslint-config-prettier: 8.8.0_eslint@8.40.0
+      eslint-module-utils: 2.8.0_fpivltgahi4upti426avloygci
+      eslint-plugin-eslint-comments: 3.2.0_eslint@8.40.0
+      eslint-plugin-import: 2.27.5_fpivltgahi4upti426avloygci
+      eslint-plugin-jest: 25.7.0_tyrtuhc4evx3mzdofx7z5mvcx4
+      eslint-plugin-jest-formatting: 3.1.0_eslint@8.40.0
+      eslint-plugin-jsx-a11y: 6.7.1_eslint@8.40.0
+      eslint-plugin-node: 11.1.0_eslint@8.40.0
+      eslint-plugin-prettier: 4.2.1_mnhdxnhvwtt24ndv5d2pwtkrna
+      eslint-plugin-promise: 6.1.1_eslint@8.40.0
+      eslint-plugin-react: 7.32.2_eslint@8.40.0
+      eslint-plugin-react-hooks: 4.6.0_eslint@8.40.0
+      eslint-plugin-sort-class-members: 1.17.1_eslint@8.40.0
+      jsx-ast-utils: 3.3.3
+      pkg-dir: 5.0.0
+      pluralize: 8.0.0
+    transitivePeerDependencies:
+      - '@babel/core'
+      - eslint-import-resolver-node
+      - eslint-import-resolver-typescript
+      - eslint-import-resolver-webpack
+      - jest
+      - prettier
+      - supports-color
+      - typescript
+
+  /@shopify/function-enhancers/2.0.8:
+    resolution: {integrity: sha512-/nv59+ycOVV2ZKixl6V1d+xJmfMN40qUEmpFgbXhCnNjAE/vz3nJPal70Esp4Li2NR3GzKVJklZk3Y3pG+W1vw==, registry: https://npm.shopify.io/node/}
+    engines: {node: '>=12.14.0'}
+    dev: false
+
+  /@shopify/function-runner/4.0.2:
+    resolution: {integrity: sha512-ymfDpzwgrkyNfXA1kXA2zBSyJlaOfbCmkxYJmmcLSWDE4YSKJv9D6FwyughPL4F6ZZlkU10GxSyxkquuOLlYiA==, registry: https://npm.shopify.io/node/}
+    hasBin: true
+    dependencies:
+      cachedir: 2.3.0
+      node-fetch: 3.3.1
+    dev: false
+
+  /@shopify/i18n/1.0.9:
+    resolution: {integrity: sha512-ZxoIB8UTmWHvRig6E4zvYJt3fAa24iJGYTQLHsjZBV3cmqi/AiSet9Qys7GkqzKcYV/4xukZIfpeWXVjef3v7A==, registry: https://npm.shopify.io/node/}
+    engines: {node: '>=12.14.0'}
+    dev: false
+
+  /@shopify/ngrok/4.3.2:
+    resolution: {integrity: sha512-Kz+tg6PavJGTKVOVd1AExm1MH1zVyE3lHWwnRBWIR/+uMxPmob9kp4bRlo4/270qWfGLNiY96TJgByVEm4Q9/g==, registry: https://npm.shopify.io/node/}
+    engines: {node: '>=10.19.0 <14 || >=14.2'}
+    hasBin: true
+    requiresBuild: true
+    dependencies:
+      '@types/node': 8.10.66
+      extract-zip: 2.0.1
+      got: 11.8.6
+      lodash.clonedeep: 4.5.0
+      uuid: 8.3.2
+      yaml: 1.10.2
+    optionalDependencies:
+      hpagent: 0.1.2
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
+
+  /@shopify/polaris-icons/4.23.0:
+    resolution: {integrity: sha512-70iT2GNXVASA7jPtuKTsPKoq82Ws/x9Nu1sGuTnvchQpeltFG9oJEu/1r9AuTS05dQoM6fivnOCxZGy5XnCFqw==, registry: https://npm.shopify.io/node/}
+    dev: false
+
+  /@shopify/react-effect/4.1.12_sfoxds7t5ydpegc3knd667wn6m:
+    resolution: {integrity: sha512-Zy0CH0onvv/Jll4ePxvWa1STS6cILjoFI+6LxMFapC8ZVcCQdnrQFLmuoyF+rfyuFqJtwHE9y1sDZcP+EkW3GQ==, registry: https://npm.shopify.io/node/}
+    engines: {node: '>=12.14.0'}
+    peerDependencies:
+      react: '>=16.8.0 <18.0.0'
+      react-dom: '>=16.8.0 <18.0.0'
+    dependencies:
+      react: 17.0.2
+      react-dom: 17.0.2_react@17.0.2
+    dev: false
+
+  /@shopify/react-hooks/2.1.19_react@17.0.2:
+    resolution: {integrity: sha512-IZ1RbYB9fHfERveg8ZdAbJcZ7uN1yDH/4Jse8v8+GI3YlGnKn31XSB6vmk5v5Ti2kNvOK84LFdcmRDWRQa3k3A==, registry: https://npm.shopify.io/node/}
+    engines: {node: '>=12.14.0'}
+    peerDependencies:
+      react: '>=16.8.0 <18.0.0'
+    dependencies:
+      react: 17.0.2
+    dev: false
+
+  /@shopify/react-i18n/6.4.0_sfoxds7t5ydpegc3knd667wn6m:
+    resolution: {integrity: sha512-slWBcgfYD2QstNRQTZxXI8iJdPyhek32N8TeGLU315K2zvIGPzOZaFRN+2dzVlY8WWFd/auQ7xY5x+a3gOx5tg==, registry: https://npm.shopify.io/node/}
+    engines: {node: '>=12.14.0'}
+    peerDependencies:
+      react: '>=16.8.0 <18.0.0'
+    dependencies:
+      '@shopify/dates': 1.1.5
+      '@shopify/decorators': 2.0.8
+      '@shopify/function-enhancers': 2.0.8
+      '@shopify/i18n': 1.0.9
+      '@shopify/react-effect': 4.1.12_sfoxds7t5ydpegc3knd667wn6m
+      '@shopify/react-hooks': 2.1.19_react@17.0.2
+      '@shopify/useful-types': 4.0.3
+      '@types/hoist-non-react-statics': 3.3.1
+      change-case: 4.1.2
+      glob: 7.2.3
+      hoist-non-react-statics: 3.3.2
+      lodash.clonedeep: 4.5.0
+      lodash.merge: 4.6.2
+      react: 17.0.2
+      string-hash: 1.1.3
+      strip-json-comments: 3.1.1
+    optionalDependencies:
+      '@babel/template': 7.20.7
+      '@babel/traverse': 7.21.5
+      fs-extra: 9.1.0
+    transitivePeerDependencies:
+      - react-dom
+      - supports-color
+    dev: false
+
+  /@shopify/react-testing/3.3.10_sfoxds7t5ydpegc3knd667wn6m:
+    resolution: {integrity: sha512-l1juWNqe4rRrP5bcOB6riJEd1Bb0BgfnGVKb9GB+o8QtTv1ti3YxGdyU+D/qpIuXBG5h5SNR2wgECdD4kpqVeg==, registry: https://npm.shopify.io/node/}
+    engines: {node: '>=12.14.0'}
+    peerDependencies:
+      react: '>=16.8.0 <18.0.0'
+      react-dom: '>=16.8.0 <18.0.0'
+    dependencies:
+      '@shopify/useful-types': 4.0.3
+      jest-matcher-utils: 26.6.2
+      react: 17.0.2
+      react-dom: 17.0.2_react@17.0.2
+      react-reconciler: 0.26.2_react@17.0.2
+    dev: true
+
+  /@shopify/typescript-configs/5.1.0:
+    resolution: {integrity: sha512-RywGBTR+nQyJLxcrUcihPkHPIG3pIQI6i0YwMrM5rs9nWJ0+9A5HKEcboyGPLH+8V08EXGfFQ6H820O9ajyk4A==, registry: https://npm.shopify.io/node/}
+    dev: true
+
+  /@shopify/useful-types/4.0.3:
+    resolution: {integrity: sha512-vT48uKFSTfI3HPqtNI3lahWRDncFuuzBVfj2eUxEpQO//3Sn+IIo4zRPT9W4EHBiVWJyBeW5CTzVtvGhQma4EA==, registry: https://npm.shopify.io/node/}
+    engines: {node: '>=12.14.0'}
+
   /@sinclair/typebox/0.24.51:
     resolution: {integrity: sha512-1P1OROm/rdubP5aFDSZQILU0vrLCJ4fvHt6EoqHEM+2D/G5MK3bIaymUKLit8Js9gbns5UyJnkP/TZROLw4tUA==}
     dev: true
@@ -4459,12 +4618,10 @@ packages:
   /argparse/2.0.1:
     resolution: {integrity: sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==}
 
-  /aria-query/4.2.2:
-    resolution: {integrity: sha512-o/HelwhuKpTj/frsOsbNLNgnNGVIFsVP/SW2BSF14gVl7kAfMOJ6/8wUAUvG1R1NHKrfG+2sHZTu0yauT1qBrA==}
-    engines: {node: '>=6.0'}
+  /aria-query/5.1.3:
+    resolution: {integrity: sha512-R5iJ5lkuHybztUfuOAznmboyjWq8O6sqNqtK7CLOqdydi54VNbORp49mb14KbWgG1QD3JFO9hJdZ+y4KutfdOQ==}
     dependencies:
-      '@babel/runtime': 7.21.5
-      '@babel/runtime-corejs3': 7.21.5
+      deep-equal: 2.2.1
 
   /array-back/3.1.0:
     resolution: {integrity: sha512-TkuxA4UCOvxuDK6NZYXCalszEzj+TLszyASooky+i742l9TqsOdYCMJJupxRic61hwquNtppB3hgcuq9SVSH1Q==}
@@ -4624,8 +4781,10 @@ packages:
       - debug
     dev: true
 
-  /axobject-query/2.2.0:
-    resolution: {integrity: sha512-Td525n+iPOOyUQIeBfcASuG6uJsDOITl7Mds5gFyerkWiX7qhUTdYUBlSgNMyVqtSJqwpt1kXGLdUt6SykLMRA==}
+  /axobject-query/3.1.1:
+    resolution: {integrity: sha512-goKlv8DZrK9hUh975fnHzhNIO4jUnFCfv/dszV5VwUGDFjI6vQ2VwoyjYjYNEbBE8AH87TduWP5uyDR1D+Iteg==}
+    dependencies:
+      deep-equal: 2.2.1
 
   /babel-plugin-const-enum/1.2.0_@babel+core@7.21.4:
     resolution: {integrity: sha512-o1m/6iyyFnp9MRsK1dHF3bneqyf3AlM2q3A/YbgQr2pCat6B6XJVDv2TXqzfY2RYUi4mak6WAksSBPlyYGx9dg==}
@@ -5455,10 +5614,6 @@ packages:
       browserslist: 4.21.5
     dev: true
 
-  /core-js-pure/3.30.2:
-    resolution: {integrity: sha512-p/npFUJXXBkCCTIlEGBdghofn00jWG6ZOtdoIXSJmAu2QBvN0IqpZXWweOytcwE6cfx8ZvVUy1vw8zxhe4Y2vg==}
-    requiresBuild: true
-
   /core-util-is/1.0.2:
     resolution: {integrity: sha512-3lqz5YjWTYnW6dlDa5TLaTCcShfar1e40rmcJVwCBJC6mWlFuj0eCHIElmG1g5kyuJ/GD+8Wn4FFCcz4gJPfaQ==}
     dev: true
@@ -5724,6 +5879,28 @@ packages:
     dependencies:
       type-detect: 4.0.8
     dev: true
+
+  /deep-equal/2.2.1:
+    resolution: {integrity: sha512-lKdkdV6EOGoVn65XaOsPdH4rMxTZOnmFyuIkMjM1i5HHCbfjC97dawgTAy0deYNfuqUqW+Q5VrVaQYtUpSd6yQ==}
+    dependencies:
+      array-buffer-byte-length: 1.0.0
+      call-bind: 1.0.2
+      es-get-iterator: 1.1.3
+      get-intrinsic: 1.2.0
+      is-arguments: 1.1.1
+      is-array-buffer: 3.0.2
+      is-date-object: 1.0.5
+      is-regex: 1.1.4
+      is-shared-array-buffer: 1.0.2
+      isarray: 2.0.5
+      object-is: 1.1.5
+      object-keys: 1.1.1
+      object.assign: 4.1.4
+      regexp.prototype.flags: 1.5.0
+      side-channel: 1.0.4
+      which-boxed-primitive: 1.0.2
+      which-collection: 1.0.1
+      which-typed-array: 1.1.9
 
   /deep-extend/0.6.0:
     resolution: {integrity: sha512-LOHxIOaPYdHlJRtCQfDIVZtfw/ufM8+rVj649RIHzcm/vGwQRXFt6OPqIFWsm2XEMrNIEtWR64sY1LEKD2vAOA==}
@@ -6013,6 +6190,19 @@ packages:
       unbox-primitive: 1.0.2
       which-typed-array: 1.1.9
 
+  /es-get-iterator/1.1.3:
+    resolution: {integrity: sha512-sPZmqHBe6JIiTfN5q2pEi//TwxmAFHwj/XEuYjTuse78i8KxaqMTTzxPoFKuzRpDpTJ+0NAbpfenkmH2rePtuw==}
+    dependencies:
+      call-bind: 1.0.2
+      get-intrinsic: 1.2.0
+      has-symbols: 1.0.3
+      is-arguments: 1.1.1
+      is-map: 2.0.2
+      is-set: 2.0.2
+      is-string: 1.0.7
+      isarray: 2.0.5
+      stop-iteration-iterator: 1.0.0
+
   /es-set-tostringtag/2.0.1:
     resolution: {integrity: sha512-g3OMbtlwY3QewlqAiMLI47KywjWZoEytKr8pf6iTC8uJq5bIAH52Z9pnQ8pVL6whrCto53JZDuUIsifGeLorTg==}
     engines: {node: '>= 0.4'}
@@ -6271,25 +6461,29 @@ packages:
     transitivePeerDependencies:
       - supports-color
 
-  /eslint-plugin-jsx-a11y/6.5.1_eslint@8.40.0:
-    resolution: {integrity: sha512-sVCFKX9fllURnXT2JwLN5Qgo24Ug5NF6dxhkmxsMEUZhXRcGg+X3e1JbJ84YePQKBl5E0ZjAH5Q4rkdcGY99+g==}
+  /eslint-plugin-jsx-a11y/6.7.1_eslint@8.40.0:
+    resolution: {integrity: sha512-63Bog4iIethyo8smBklORknVjB0T2dwB8Mr/hIC+fBS0uyHdYYpzM/Ed+YC8VxTjlXHEWFOdmgwcDn1U2L9VCA==}
     engines: {node: '>=4.0'}
     peerDependencies:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8
     dependencies:
       '@babel/runtime': 7.21.5
-      aria-query: 4.2.2
+      aria-query: 5.1.3
       array-includes: 3.1.6
+      array.prototype.flatmap: 1.3.1
       ast-types-flow: 0.0.7
       axe-core: 4.7.0
-      axobject-query: 2.2.0
+      axobject-query: 3.1.1
       damerau-levenshtein: 1.0.8
       emoji-regex: 9.2.2
       eslint: 8.40.0
       has: 1.0.3
       jsx-ast-utils: 3.3.3
-      language-tags: 1.0.8
+      language-tags: 1.0.5
       minimatch: 3.1.2
+      object.entries: 1.1.6
+      object.fromentries: 2.0.6
+      semver: 6.3.0
 
   /eslint-plugin-no-catch-all/1.1.0_eslint@8.40.0:
     resolution: {integrity: sha512-VkP62jLTmccPrFGN/W6V7a3SEwdtTZm+Su2k4T3uyJirtkm0OMMm97h7qd8pRFAHus/jQg9FpUpLRc7sAylBEQ==}
@@ -7643,7 +7837,6 @@ packages:
     dependencies:
       call-bind: 1.0.2
       has-tostringtag: 1.0.0
-    dev: true
 
   /is-array-buffer/3.0.2:
     resolution: {integrity: sha512-y+FyyR/w8vfIRq4eQcM1EYgSTnmHXPqaF+IgzgraytCFq5Xh8lllDVmAZolPJiZttZLeFSINPYMaEJ7/vWUa1w==}
@@ -7759,6 +7952,9 @@ packages:
     resolution: {integrity: sha512-z7CMFGNrENq5iFB9Bqo64Xk6Y9sg+epq1myIcdHaGnbMTYOxvzsEtdYqQUylB7LxfkvgrrjP32T6Ywciio9UIQ==}
     dev: true
 
+  /is-map/2.0.2:
+    resolution: {integrity: sha512-cOZFQQozTha1f4MxLFzlgKYPTyj26picdZTx82hbc/Xf4K/tZOOXSCkMvU4pKioRXGDLJRn0GM7Upe7kR721yg==}
+
   /is-negative-zero/2.0.2:
     resolution: {integrity: sha512-dqJvarLawXsFbNDeJW7zAz8ItJ9cd28YufuuFzh0G8pNHjJMnY08Dv7sYX2uF5UpQOwieAeOExEYAWWfu7ZZUA==}
     engines: {node: '>= 0.4'}
@@ -7817,6 +8013,9 @@ packages:
     dependencies:
       scoped-regex: 2.1.0
     dev: true
+
+  /is-set/2.0.2:
+    resolution: {integrity: sha512-+2cnTEZeY5z/iXGbLhPrOAaK/Mau5k5eXq9j14CpRTftq0pAJu2MwVRSZhyZWBzx3o6X795Lz6Bpb6R0GKf37g==}
 
   /is-shared-array-buffer/1.0.2:
     resolution: {integrity: sha512-sqN2UDu1/0y6uvXyStCOzyhAjCSlHceFoMKJW8W9EU9cvic/QdsZ0kEU93HEy3IUEFZIiH/3w+AH/UQbPHNdhA==}
@@ -7879,10 +8078,19 @@ packages:
     resolution: {integrity: sha512-rMYPYvCzsXywIsldgLaSoPlw5PfoB/ssr7hY4pLfcodrA5M/eArza1a9VmTiNIBNMjOGr1Ow9mTyU2o69U6U9Q==}
     dev: true
 
+  /is-weakmap/2.0.1:
+    resolution: {integrity: sha512-NSBR4kH5oVj1Uwvv970ruUkCV7O1mzgVFO4/rev2cLRda9Tm9HrL70ZPut4rOHgY0FNrUu9BCbXA2sdQ+x0chA==}
+
   /is-weakref/1.0.2:
     resolution: {integrity: sha512-qctsuLZmIQ0+vSSMfoVvyFe2+GSEvnmZ2ezTup1SBse9+twCCeial6EEi3Nc2KFcf6+qz2FBPnjXsk8xhKSaPQ==}
     dependencies:
       call-bind: 1.0.2
+
+  /is-weakset/2.0.2:
+    resolution: {integrity: sha512-t2yVvttHkQktwnNNmBQ98AhENLdPUTDTE21uPqAQ0ARwQfGeQKRVS0NNurH7bTf7RrvcVn1OOge45CnBeHCSmg==}
+    dependencies:
+      call-bind: 1.0.2
+      get-intrinsic: 1.2.0
 
   /is-windows/1.0.2:
     resolution: {integrity: sha512-eXK1UInq2bPmjyX6e3VHIzMLobc4J94i4AWn+Hpq3OU5KkrRC96OAcR3PRJ/pGu6m8TRnBHP9dkXQVsT/COVIA==}
@@ -7897,6 +8105,9 @@ packages:
 
   /isarray/1.0.0:
     resolution: {integrity: sha512-VLghIWNM6ELQzo7zwmcg0NmTVyWKYjvIeM83yjp0wRDTmUnrM678fQbcKBo6n2CJEF0szoG//ytg+TKla89ALQ==}
+
+  /isarray/2.0.5:
+    resolution: {integrity: sha512-xHjhDr3cNBK0BzdUJSPXZntQUx/mwMS5Rw4A7lPJ90XGAO6ISP/ePDNuo0vhqOZU+UD5JoodwCAAoZQd3FeAKw==}
 
   /isbinaryfile/4.0.10:
     resolution: {integrity: sha512-iHrqe5shvBUcFbmZq9zOQHBoeOhZJu6RQGrDpBgenUm/Am+F3JM2MgQj+rK3Z601fzrL5gLZWtAPH2OBaSVcyw==}
@@ -8222,8 +8433,8 @@ packages:
   /language-subtag-registry/0.3.22:
     resolution: {integrity: sha512-tN0MCzyWnoz/4nHS6uxdlFWoUZT7ABptwKPQ52Ea7URk6vll88bWBVhodtnlfEuCcKWNGoc+uGbw1cwa9IKh/w==}
 
-  /language-tags/1.0.8:
-    resolution: {integrity: sha512-aWAZwgPLS8hJ20lNPm9HNVs4inexz6S2sQa3wx/+ycuutMNE5/IfYxiWYBbi+9UWCQVaXYCOPUl6gFrPR7+jGg==}
+  /language-tags/1.0.5:
+    resolution: {integrity: sha512-qJhlO9cGXi6hBGKoxEG/sKZDAHD5Hnu9Hs4WbOY3pCWXDhw0N8x1NenNzm2EnNLkLkk7J2SdxAkDSbb6ftT+UQ==}
     dependencies:
       language-subtag-registry: 0.3.22
 
@@ -9171,6 +9382,13 @@ packages:
 
   /object-inspect/1.12.3:
     resolution: {integrity: sha512-geUvdk7c+eizMNUDkRpW1wJwgfOiOeHbxBR/hLXK1aT6zmVSO0jsQcs7fj6MGw89jC/cjGfLcNOrtMYtGqm81g==}
+
+  /object-is/1.1.5:
+    resolution: {integrity: sha512-3cyDsyHgtmi7I7DfSSI2LDp6SK2lwvtbg0p0R1e0RvTqF5ceGx+K2dfSjm1bKDMVCFEDAQvy+o8c6a7VujOddw==}
+    engines: {node: '>= 0.4'}
+    dependencies:
+      call-bind: 1.0.2
+      define-properties: 1.2.0
 
   /object-keys/1.1.1:
     resolution: {integrity: sha512-NuAESUOUMrlIXOfHKzD6bpPu3tYt3xvjNdRIQ+FeT0lNb4K8WR70CaDxhuNguS2XG+GjkyMwOzsN5ZktImfhLA==}
@@ -10802,6 +11020,12 @@ packages:
     resolution: {integrity: sha512-Rz6yejtVyWnVjC1RFvNmYL10kgjC49EOghxWn0RFqlCHGFpQx+Xe7yW3I4ceK1SGrWIGMjD5Kbue8W/udkbMJg==}
     dev: true
 
+  /stop-iteration-iterator/1.0.0:
+    resolution: {integrity: sha512-iCGQj+0l0HOdZ2AEeBADlsRC+vsnDsZsbdSiH1yNSjcfKM7fdpCMfqAL/dwF5BLiw/XhRft/Wax6zQbhq2BcjQ==}
+    engines: {node: '>= 0.4'}
+    dependencies:
+      internal-slot: 1.0.5
+
   /stream-transform/2.1.3:
     resolution: {integrity: sha512-9GHUiM5hMiCi6Y03jD2ARC1ettBXkQBoQAe7nJsPknnI0ow10aXjTnew8QtYQmLjzn974BnmWEAJgCY6ZP1DeQ==}
     dependencies:
@@ -12184,6 +12408,14 @@ packages:
       is-string: 1.0.7
       is-symbol: 1.0.4
 
+  /which-collection/1.0.1:
+    resolution: {integrity: sha512-W8xeTUwaln8i3K/cY1nGXzdnVZlidBcagyNFtBdD5kxnb4TvGKR7FfSIS3mYpwWS1QUCutfKz8IY8RjftB0+1A==}
+    dependencies:
+      is-map: 2.0.2
+      is-set: 2.0.2
+      is-weakmap: 2.0.1
+      is-weakset: 2.0.2
+
   /which-module/2.0.1:
     resolution: {integrity: sha512-iBdZ57RDvnOR9AGBhML2vFZf7h8vmBjhoaZqODJBFWHVtKkDmKuHai3cx5PgVMrX5YDNp27AofYbAwctSS+vhQ==}
     dev: true
@@ -12599,14 +12831,14 @@ packages:
       eslint: ^8.37.0
     dependencies:
       '@babel/core': 7.21.4
-      '@shopify/eslint-plugin': registry.npmjs.org/@shopify/eslint-plugin/42.1.0_fzluok36gina5tivsgzhuum7mu
+      '@shopify/eslint-plugin': 42.1.0_fzluok36gina5tivsgzhuum7mu
       '@typescript-eslint/eslint-plugin': 5.57.0_fwbwffxiq4bvaw374ga4sdje4y
       '@typescript-eslint/parser': 5.59.2_jgkqkwom7vrxl4kyi454n2sy2i
       eslint: 8.40.0
       eslint-config-prettier: 8.8.0_eslint@8.40.0
       eslint-plugin-import: 2.27.5_fpivltgahi4upti426avloygci
       eslint-plugin-jsdoc: 39.3.6_eslint@8.40.0
-      eslint-plugin-jsx-a11y: 6.5.1_eslint@8.40.0
+      eslint-plugin-jsx-a11y: 6.7.1_eslint@8.40.0
       eslint-plugin-no-catch-all: 1.1.0_eslint@8.40.0
       eslint-plugin-prettier: 4.2.1_mnhdxnhvwtt24ndv5d2pwtkrna
       eslint-plugin-react: 7.32.2_eslint@8.40.0
@@ -12624,202 +12856,3 @@ packages:
       - supports-color
       - typescript
     dev: true
-
-  registry.npmjs.org/@shopify/dates/1.1.5:
-    resolution: {integrity: sha512-WpShtWjylq0iH4FQhpEz1g5tCZRw/GgZ00uYUxUinVyBqaUbRqiAq7EnwXzGO/aTpAUF6yXgDTxoji3aFOiC8A==, registry: https://npm.shopify.io/node/, tarball: https://registry.npmjs.org/@shopify/dates/-/dates-1.1.5.tgz}
-    name: '@shopify/dates'
-    version: 1.1.5
-    engines: {node: '>=12.14.0'}
-    dependencies:
-      '@shopify/decorators': registry.npmjs.org/@shopify/decorators/2.0.8
-    dev: false
-
-  registry.npmjs.org/@shopify/decorators/2.0.8:
-    resolution: {integrity: sha512-nm/RmyDnEGP7rcn+hyPSUrb/j0G5mrtYP69f8AwJmVLgDp/6bOTYfOOUXB1AXBg9ILHWdFQv5ItYdmJB48y/Xw==, registry: https://npm.shopify.io/node/, tarball: https://registry.npmjs.org/@shopify/decorators/-/decorators-2.0.8.tgz}
-    name: '@shopify/decorators'
-    version: 2.0.8
-    engines: {node: '>=12.14.0'}
-    dependencies:
-      '@shopify/function-enhancers': registry.npmjs.org/@shopify/function-enhancers/2.0.8
-    dev: false
-
-  registry.npmjs.org/@shopify/eslint-plugin/42.1.0_fzluok36gina5tivsgzhuum7mu:
-    resolution: {integrity: sha512-b45SXfXoE9+BvQjHrhInWlOMhsXrqIzts+setaXecR5WW6NcEKeeSfHvTvLVk231NHnrE5h+MuHp1Ci1pR5nfA==, registry: https://npm.shopify.io/node/, tarball: https://registry.npmjs.org/@shopify/eslint-plugin/-/eslint-plugin-42.1.0.tgz}
-    id: registry.npmjs.org/@shopify/eslint-plugin/42.1.0
-    name: '@shopify/eslint-plugin'
-    version: 42.1.0
-    peerDependencies:
-      eslint: ^8.3.0
-    dependencies:
-      '@babel/eslint-parser': 7.21.8_sna6kjlf4rfjwk3nie7l4rkory
-      '@babel/eslint-plugin': 7.19.1_jmcpgodjgavbdkcjyxicdajmsm
-      '@typescript-eslint/eslint-plugin': 5.57.0_fwbwffxiq4bvaw374ga4sdje4y
-      '@typescript-eslint/parser': 5.59.2_jgkqkwom7vrxl4kyi454n2sy2i
-      change-case: 4.1.2
-      common-tags: 1.8.2
-      doctrine: 2.1.0
-      eslint: 8.40.0
-      eslint-config-prettier: 8.8.0_eslint@8.40.0
-      eslint-module-utils: 2.8.0_fpivltgahi4upti426avloygci
-      eslint-plugin-eslint-comments: 3.2.0_eslint@8.40.0
-      eslint-plugin-import: 2.27.5_fpivltgahi4upti426avloygci
-      eslint-plugin-jest: 25.7.0_tyrtuhc4evx3mzdofx7z5mvcx4
-      eslint-plugin-jest-formatting: 3.1.0_eslint@8.40.0
-      eslint-plugin-jsx-a11y: 6.5.1_eslint@8.40.0
-      eslint-plugin-node: 11.1.0_eslint@8.40.0
-      eslint-plugin-prettier: 4.2.1_mnhdxnhvwtt24ndv5d2pwtkrna
-      eslint-plugin-promise: 6.1.1_eslint@8.40.0
-      eslint-plugin-react: 7.32.2_eslint@8.40.0
-      eslint-plugin-react-hooks: 4.6.0_eslint@8.40.0
-      eslint-plugin-sort-class-members: 1.17.1_eslint@8.40.0
-      jsx-ast-utils: 3.3.3
-      pkg-dir: 5.0.0
-      pluralize: 8.0.0
-    transitivePeerDependencies:
-      - '@babel/core'
-      - eslint-import-resolver-node
-      - eslint-import-resolver-typescript
-      - eslint-import-resolver-webpack
-      - jest
-      - prettier
-      - supports-color
-      - typescript
-
-  registry.npmjs.org/@shopify/function-enhancers/2.0.8:
-    resolution: {integrity: sha512-/nv59+ycOVV2ZKixl6V1d+xJmfMN40qUEmpFgbXhCnNjAE/vz3nJPal70Esp4Li2NR3GzKVJklZk3Y3pG+W1vw==, registry: https://npm.shopify.io/node/, tarball: https://registry.npmjs.org/@shopify/function-enhancers/-/function-enhancers-2.0.8.tgz}
-    name: '@shopify/function-enhancers'
-    version: 2.0.8
-    engines: {node: '>=12.14.0'}
-    dev: false
-
-  registry.npmjs.org/@shopify/function-runner/4.0.2:
-    resolution: {integrity: sha512-ymfDpzwgrkyNfXA1kXA2zBSyJlaOfbCmkxYJmmcLSWDE4YSKJv9D6FwyughPL4F6ZZlkU10GxSyxkquuOLlYiA==, registry: https://npm.shopify.io/node/, tarball: https://registry.npmjs.org/@shopify/function-runner/-/function-runner-4.0.2.tgz}
-    name: '@shopify/function-runner'
-    version: 4.0.2
-    hasBin: true
-    dependencies:
-      cachedir: 2.3.0
-      node-fetch: 3.3.1
-    dev: false
-
-  registry.npmjs.org/@shopify/i18n/1.0.9:
-    resolution: {integrity: sha512-ZxoIB8UTmWHvRig6E4zvYJt3fAa24iJGYTQLHsjZBV3cmqi/AiSet9Qys7GkqzKcYV/4xukZIfpeWXVjef3v7A==, registry: https://npm.shopify.io/node/, tarball: https://registry.npmjs.org/@shopify/i18n/-/i18n-1.0.9.tgz}
-    name: '@shopify/i18n'
-    version: 1.0.9
-    engines: {node: '>=12.14.0'}
-    dev: false
-
-  registry.npmjs.org/@shopify/ngrok/4.3.2:
-    resolution: {integrity: sha512-Kz+tg6PavJGTKVOVd1AExm1MH1zVyE3lHWwnRBWIR/+uMxPmob9kp4bRlo4/270qWfGLNiY96TJgByVEm4Q9/g==, registry: https://npm.shopify.io/node/, tarball: https://registry.npmjs.org/@shopify/ngrok/-/ngrok-4.3.2.tgz}
-    name: '@shopify/ngrok'
-    version: 4.3.2
-    engines: {node: '>=10.19.0 <14 || >=14.2'}
-    hasBin: true
-    requiresBuild: true
-    dependencies:
-      '@types/node': 8.10.66
-      extract-zip: 2.0.1
-      got: 11.8.6
-      lodash.clonedeep: 4.5.0
-      uuid: 8.3.2
-      yaml: 1.10.2
-    optionalDependencies:
-      hpagent: 0.1.2
-    transitivePeerDependencies:
-      - supports-color
-    dev: false
-
-  registry.npmjs.org/@shopify/polaris-icons/4.23.0:
-    resolution: {integrity: sha512-70iT2GNXVASA7jPtuKTsPKoq82Ws/x9Nu1sGuTnvchQpeltFG9oJEu/1r9AuTS05dQoM6fivnOCxZGy5XnCFqw==, registry: https://npm.shopify.io/node/, tarball: https://registry.npmjs.org/@shopify/polaris-icons/-/polaris-icons-4.23.0.tgz}
-    name: '@shopify/polaris-icons'
-    version: 4.23.0
-    dev: false
-
-  registry.npmjs.org/@shopify/react-effect/4.1.12_sfoxds7t5ydpegc3knd667wn6m:
-    resolution: {integrity: sha512-Zy0CH0onvv/Jll4ePxvWa1STS6cILjoFI+6LxMFapC8ZVcCQdnrQFLmuoyF+rfyuFqJtwHE9y1sDZcP+EkW3GQ==, registry: https://npm.shopify.io/node/, tarball: https://registry.npmjs.org/@shopify/react-effect/-/react-effect-4.1.12.tgz}
-    id: registry.npmjs.org/@shopify/react-effect/4.1.12
-    name: '@shopify/react-effect'
-    version: 4.1.12
-    engines: {node: '>=12.14.0'}
-    peerDependencies:
-      react: '>=16.8.0 <18.0.0'
-      react-dom: '>=16.8.0 <18.0.0'
-    dependencies:
-      react: 17.0.2
-      react-dom: 17.0.2_react@17.0.2
-    dev: false
-
-  registry.npmjs.org/@shopify/react-hooks/2.1.19_react@17.0.2:
-    resolution: {integrity: sha512-IZ1RbYB9fHfERveg8ZdAbJcZ7uN1yDH/4Jse8v8+GI3YlGnKn31XSB6vmk5v5Ti2kNvOK84LFdcmRDWRQa3k3A==, registry: https://npm.shopify.io/node/, tarball: https://registry.npmjs.org/@shopify/react-hooks/-/react-hooks-2.1.19.tgz}
-    id: registry.npmjs.org/@shopify/react-hooks/2.1.19
-    name: '@shopify/react-hooks'
-    version: 2.1.19
-    engines: {node: '>=12.14.0'}
-    peerDependencies:
-      react: '>=16.8.0 <18.0.0'
-    dependencies:
-      react: 17.0.2
-    dev: false
-
-  registry.npmjs.org/@shopify/react-i18n/6.4.0_sfoxds7t5ydpegc3knd667wn6m:
-    resolution: {integrity: sha512-slWBcgfYD2QstNRQTZxXI8iJdPyhek32N8TeGLU315K2zvIGPzOZaFRN+2dzVlY8WWFd/auQ7xY5x+a3gOx5tg==, registry: https://npm.shopify.io/node/, tarball: https://registry.npmjs.org/@shopify/react-i18n/-/react-i18n-6.4.0.tgz}
-    id: registry.npmjs.org/@shopify/react-i18n/6.4.0
-    name: '@shopify/react-i18n'
-    version: 6.4.0
-    engines: {node: '>=12.14.0'}
-    peerDependencies:
-      react: '>=16.8.0 <18.0.0'
-    dependencies:
-      '@shopify/dates': registry.npmjs.org/@shopify/dates/1.1.5
-      '@shopify/decorators': registry.npmjs.org/@shopify/decorators/2.0.8
-      '@shopify/function-enhancers': registry.npmjs.org/@shopify/function-enhancers/2.0.8
-      '@shopify/i18n': registry.npmjs.org/@shopify/i18n/1.0.9
-      '@shopify/react-effect': registry.npmjs.org/@shopify/react-effect/4.1.12_sfoxds7t5ydpegc3knd667wn6m
-      '@shopify/react-hooks': registry.npmjs.org/@shopify/react-hooks/2.1.19_react@17.0.2
-      '@shopify/useful-types': registry.npmjs.org/@shopify/useful-types/4.0.3
-      '@types/hoist-non-react-statics': 3.3.1
-      change-case: 4.1.2
-      glob: 7.2.3
-      hoist-non-react-statics: 3.3.2
-      lodash.clonedeep: 4.5.0
-      lodash.merge: 4.6.2
-      react: 17.0.2
-      string-hash: 1.1.3
-      strip-json-comments: 3.1.1
-    optionalDependencies:
-      '@babel/template': 7.20.7
-      '@babel/traverse': 7.21.5
-      fs-extra: 9.1.0
-    transitivePeerDependencies:
-      - react-dom
-      - supports-color
-    dev: false
-
-  registry.npmjs.org/@shopify/react-testing/3.3.10_sfoxds7t5ydpegc3knd667wn6m:
-    resolution: {integrity: sha512-l1juWNqe4rRrP5bcOB6riJEd1Bb0BgfnGVKb9GB+o8QtTv1ti3YxGdyU+D/qpIuXBG5h5SNR2wgECdD4kpqVeg==, registry: https://npm.shopify.io/node/, tarball: https://registry.npmjs.org/@shopify/react-testing/-/react-testing-3.3.10.tgz}
-    id: registry.npmjs.org/@shopify/react-testing/3.3.10
-    name: '@shopify/react-testing'
-    version: 3.3.10
-    engines: {node: '>=12.14.0'}
-    peerDependencies:
-      react: '>=16.8.0 <18.0.0'
-      react-dom: '>=16.8.0 <18.0.0'
-    dependencies:
-      '@shopify/useful-types': registry.npmjs.org/@shopify/useful-types/4.0.3
-      jest-matcher-utils: 26.6.2
-      react: 17.0.2
-      react-dom: 17.0.2_react@17.0.2
-      react-reconciler: 0.26.2_react@17.0.2
-    dev: true
-
-  registry.npmjs.org/@shopify/typescript-configs/5.1.0:
-    resolution: {integrity: sha512-RywGBTR+nQyJLxcrUcihPkHPIG3pIQI6i0YwMrM5rs9nWJ0+9A5HKEcboyGPLH+8V08EXGfFQ6H820O9ajyk4A==, registry: https://npm.shopify.io/node/, tarball: https://registry.npmjs.org/@shopify/typescript-configs/-/typescript-configs-5.1.0.tgz}
-    name: '@shopify/typescript-configs'
-    version: 5.1.0
-    dev: true
-
-  registry.npmjs.org/@shopify/useful-types/4.0.3:
-    resolution: {integrity: sha512-vT48uKFSTfI3HPqtNI3lahWRDncFuuzBVfj2eUxEpQO//3Sn+IIo4zRPT9W4EHBiVWJyBeW5CTzVtvGhQma4EA==, registry: https://npm.shopify.io/node/, tarball: https://registry.npmjs.org/@shopify/useful-types/-/useful-types-4.0.3.tgz}
-    name: '@shopify/useful-types'
-    version: 4.0.3
-    engines: {node: '>=12.14.0'}
