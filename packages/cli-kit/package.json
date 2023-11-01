@@ -155,7 +155,7 @@
     "zod": "3.21.4"
   },
   "devDependencies": {
-    "@types/commondir": "^1.0.0",
+    "@types/commondir": "^1.0.1",
     "@types/cross-zip": "^4.0.0",
     "@types/diff": "^5.0.3",
     "@types/fs-extra": "9.0.13",
