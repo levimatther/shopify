@@ -161,7 +161,7 @@
     "@types/fs-extra": "9.0.13",
     "@types/gradient-string": "^1.1.2",
     "@types/lodash": "4.14.192",
-    "@types/node": "14.18.36",
+    "@types/node": "14.18.63",
     "@types/react": "18.2.0",
     "@types/semver": "^7.3.13",
     "@vitest/coverage-istanbul": "^0.31.0",
